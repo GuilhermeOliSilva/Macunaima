@@ -1,0 +1,127 @@
+@import url("reset.css");
+
+.navegador {
+    background: #d16806;
+    height: 60px;
+}
+
+.img_seta {
+    display: inline-block;
+    padding: 15px 0 0 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.site_lit {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+    padding-left: 520px;
+	font-family: "Style Script", sans-serif;
+	color: #0a0606;
+}
+
+.plano_de_fundo {
+    background: url("https://i.pinimg.com/originals/c1/58/69/c15869e3d9655655859661f1dfdac0bd.jpg");
+    height: 830px;
+}
+
+.sub_titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    display: inline-block;
+    background: #d16806;
+    font-size: 30px;
+    text-align: center;
+    color: #0a0a09;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plano_de_fundo {
+    background: url("https://i.pinimg.com/originals/c1/58/69/c15869e3d9655655859661f1dfdac0bd.jpg");
+    height: 570px;
+}
+
+.sub_titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    display: inline-block;
+    background: #d16806;
+    font-size: 30px;
+    text-align: center;
+    color: #0a0a09;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div_conteudo {
+    position: relative;
+    background: linear-gradient(#d16806, #d11406 90%);
+    height: 450px;
+    margin-left: 90px;
+    margin-right: 90px;
+    box-shadow: 10px 10px 30px #0a0a09;
+}
+
+.p_conteudo {
+    font-size: 23px;
+    text-align: justify;
+    padding-top: 0.5rem;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.rodapé {
+    background: #201b1b;
+    height: 110px;
+}
+
+.nomes_trab {
+    display: inline-block;
+    color: #c9c0c0;
+    padding-top: 15px;
+    padding-left: 90px;
+}
+
+.EasterEgg {
+    color: #201b1b;
+}
+
+/*Mobile*/
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    .navegador {
+        height: 150px;
+    }
+
+    .img_seta {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo  {
+        padding-left: 270px;
+    }
+
+    .div_conteudo {
+        height: 630px;
+    }
+
+    .plano_de_fundo {
+        height: 730px;
+    }
+}

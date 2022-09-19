@@ -1,0 +1,116 @@
+@import url("reset.css");
+
+.img_seta {
+	position: absolute;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 40px;
+	width: 40px;
+	align-content: center;
+}
+
+.navegador {
+	background: #d16806;
+	height: 60px;
+}
+
+.site_lit {
+	color: black;
+	text-decoration: none;
+}
+
+.logo {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Style Script", sans-serif;
+	color: #0a0606;
+	padding-top: 10px;
+}
+
+body {
+	background-image: linear-gradient(
+			to bottom,
+			rgba(97, 97, 97, 0.6),
+			rgba(0, 0, 0, 0.6)
+		),
+		url("https://i.pinimg.com/originals/c1/58/69/c15869e3d9655655859661f1dfdac0bd.jpg");
+	background-color: #030303;
+}
+.sub_titulo {
+	text-align: center;
+}
+
+.subtitulo {
+	display: inline-block;
+	background: #d16806;
+	font-size: 30px;
+	text-align: center;
+	color: #29301d;
+	padding: 4px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.conteudo_livro {
+	position: relative;
+	background: linear-gradient(#d16806, #d11406);
+	height: max-content;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-bottom: 10px;
+}
+
+.titulo_nome {
+	font-size: 27px;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.conteudo_perso {
+	font-size: 15px;
+	padding-top: 0.1rem;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.img_conteudo {
+	width: 90%;
+	height: 360px;
+	margin: 40px;
+	box-shadow: 10px 10px 55px #201b1b;
+	border: 10px solid rgb(48, 20, 2);
+}
+
+.rodapé {
+	background: #201b1b;
+	height: 110px;
+}
+
+.nomes_trab {
+	display: inline-block;
+	color: #c9c0c0;
+	padding-top: 15px;
+	padding-left: 90px;
+}
+
+/*Mobile*/
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+	.navegador {
+        height: 150px;
+    }
+
+    .img_seta {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo  {
+		display: inline-block;
+        padding-left: 330px;
+		font-size: 60px; 
+    }
+}

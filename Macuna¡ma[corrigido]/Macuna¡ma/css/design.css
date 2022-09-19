@@ -1,0 +1,143 @@
+@import url("reset.css");
+
+.navegador {
+	background: #d16806;
+	height: 60px;
+}
+
+.site_lit {
+	color: black;
+	text-decoration: none;
+}
+
+.logo {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Style Script", sans-serif;
+	padding-top: 20px;
+	color: #0a0606;
+}
+
+body {
+	background-image: linear-gradient(
+		to bottom,
+		rgba(97, 97, 97, 0.6),
+		rgba(0, 0, 0, 0.6)
+	),
+	url("../img/plano\ de\ fundo.png");
+	background-color: #030303;
+	background-position: center;
+}
+
+.div_titulo {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.div_conteudo {
+	position: relative;
+	background: linear-gradient(#d16806, #e03b12);
+	text-align: center;
+	align-items: top;
+	height: 300px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 30px #0a0606;
+}
+
+.div_info {
+	position: relative;
+	float: right;
+	width: 55%;
+	height: 100%;
+}
+
+.texto {
+	padding: 20px 40px 20px 0;
+	font-size: 27px;
+	text-align: justify;
+}
+
+.texto__nome {
+	text-align: center;
+	font-size: 30px;
+}
+
+.link {
+	position: absolute;
+	font-size: auto;
+	text-align: end;
+	text-decoration: none;
+	right: 20px;
+	bottom: 20px;
+	color: black;
+	padding-right: 20px;
+}
+
+.a__link {
+	text-decoration: none;
+	color: black; 
+}
+
+.img {
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 90%;
+	object-fit: cover;
+	margin-top: 15px;
+	margin-left: 40px;
+	box-shadow: 10px 10px 55px #201b1b;
+}
+
+.filme {
+	text-align: center;
+}
+
+.texto_filme {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.texto__filme {
+	display: inline-block;
+	background: #e03b12;
+	font-size: 20px;
+	text-align: center;
+	color: #d6d2d2;
+	padding: 10px;
+	margin-top: 0.5rem;
+	box-shadow: 10px 10px 30px #201b1b;
+}
+
+.filme_youtube {
+	color: #1215e0;
+	text-decoration: none;
+}
+
+.texto_Mario {
+	padding-top: 40px;
+}
+
+.rodape {
+	background: #201b1b;
+	height: 110px;
+}
+
+.nomes_trab {
+	display: inline-block;
+	color: #c9c0c0;
+	padding-top: 15px;
+	padding-left: 90px;
+}
+
+.EasterEgg {
+	display: inline-block;
+	color: #201b1b;
+}
